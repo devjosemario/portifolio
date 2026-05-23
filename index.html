@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: linear-gradient(180deg, rgb(12, 12, 12), rgb(13, 13, 15), rgb(0, 0, 0));">
+    <section>
+    <div class="background" id="sessão1">
+        <nav id="nav" class="navigation">
+            <h2>JM<span>/DEV</span></h2>
+            <ul class="menu">
+                <li class="topo"><a href="#sessão1">Home</a></li>
+                <li class="topo"><a href="#sessão2">Sobre Mim</a></li>
+                <li class="topo"><a href="#sessão3">Projetos</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+        </nav>
+
+        <div class="main">
+            <h4 class="h4">Olá, meu nome é</h4>
+            <h1 class="h1">José <span>Mario</span></h1>
+            <h3 class="h3 typing-animation">Eu sou desenvolvedor Web .</h3>
+
+            <div class="contatos">
+                <a href="https://www.linkedin.com/in/devjosemario/" target="_blank">
+                    <div class="principal__botao-linkedin">
+                        <img src="imagem/linkedin.png" alt="linkedin" />
+                        <p>Linkedin</p>
+                    </div>
+                </a>
+                <a href="https://github.com/devjosemario" target="_blank">
+                    <div class="principal__botao-github">
+                        <img src="imagem/github.png" alt="github" />
+                        <p>Github</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container-ball">
+            <div class="ball ball-1"></div>
+            <div class="ball ball-2"></div>
+        </div>
+
+        <svg style="position:absolute;width:0;height:0;">
+            <filter id="gooey">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+                <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+            </filter>
+        </svg>
+    </div>
+    </section>
+
+    <section class="background-color-sobre" id="sessão2">
+        <div class="main-sobre">
+            <img class="foto" src="./imagem/WhatsApp_Image_2025-02-24_at_18.21.10-removebg-preview.png" alt="foto minha">
+            <div class="texto-sobre">
+                <h2>Sobre Mim</h2>
+                <h5>Desenvolvedor <span>& Designer</span></h5>
+                <p>Olá, me chamo José Mario, estou em transição de carreira para Desenvolvimento Web. Atualmente estou focado formas de códigos limpo e imagens de desing perfeito assim como na contrução de WebSites com animações Web para deixa-lo mais responsivo e com maior interação com o usuario.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-projetos" id="sessão3">
+            <div class="titulo"><h2>Projetos</h2></div>
+            <div class="caixa">
+                <div class="card" style="background-image: url(imagem/carousel1chat.png);">
+                    <a href="https://loja-tech-flame.vercel.app/" target="_blank"><h5>Loja tech</h5></a>
+                </div>
+                <div class="card" style="background-image: url(imagem/598045.webp);">
+                    <a href="https://clone-disneyplus-one-kappa.vercel.app/" target="_blank"><h5>Disney Clone</h5></a>
+                </div>
+                <div class="card" style="background-image: url(imagem/Screenshot_3.png);">
+                    <a href="https://check-efood.vercel.app/" target="_blank"><h5>E-food</h5></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
